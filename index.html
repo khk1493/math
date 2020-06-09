@@ -5,15 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Linear Algebra</title>
 	<style type="text/css">
+
 		h1 {
 			text-align: center;
 			font-size: 30pt;
 			margin: 0px;
 		}
 
-		.a {
-			font-size: 23pt;
-      margin:10px;
+		.alist {
+			font-size: 24pt;
+			font-weight: bold;
+     		margin:10px;
+
 		}
 		li {
 			font-size: 16pt;
@@ -35,6 +38,19 @@
 			list-style-type: none;
 		}
 
+		@media screen and (max-width: 480px) {
+		div#wrapper {
+			position: absolute;
+			top: 3%;
+			left: 0%;	
+			background-color: powderblue;
+			margin: 0px;
+
+		body {
+
+		}
+		}
+
 	</style>
 </head>
 <body>
@@ -42,11 +58,11 @@
 	<h1>Linear Algebra Practice</h1>
 	<br>
 
-	<ul>
-  		<li class = "a">Chapter 1. Introduction to Vectors</li>
-  			<ul style = "list-style-type: None">
-  				<li><a href="https://khk1493.github.io/math/L01.html">1.1. Vectors and Linear Combinations</a></li>
-          		<li><a href="https://khk1493.github.io/math/L0102.html">1.2. Lengths and Dot products</a></li>
+	<ol>
+  		<li class = "alist">Introduction to Vectors</li>
+  			<ol>
+  				<li><a href="https://khk1493.github.io/math/L01.html">Vectors and Linear Combinations</a></li>
+          		<li><a href="https://khk1493.github.io/math/L0102.html">Lengths and Dot products</a></li>
           			<ol>
           				<li><a href="./p018/p16.html">파이썬으로 내적 구하기</a></li>
           				<li><a href="./p018/p18.html">1.2C문제풀이</a></li>
@@ -54,10 +70,10 @@
           				
 
           			</ol>
-          		<li><a href="https://khk1493.github.io/math/L0102.html">1.3. Matrices</a></li>
-  			</ul><br>  
+          		<li><a href="https://khk1493.github.io/math/L0102.html">Matrices</a></li>
+  			</ol><br>  
 
-  		<li class = "a">Chapter 2. Solving Linear Equations</li>
+  		<li class = "alist">Solving Linear Equations</li>
     		<ul style = "list-style-type: None">
           		<li><a href="https://khk1493.github.io/math/L01.html">2.1. Vectors and Linear Equations</a></li>
           		<li><a href="https://khk1493.github.io/math/L01.html">2.2. The Idea of Elimination</a></li>
@@ -65,7 +81,7 @@
   			</ul><br>
 
 
-	</ul>
+	</ol>
 
 	</div>
 </body>
